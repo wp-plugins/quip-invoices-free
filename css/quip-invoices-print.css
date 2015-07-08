@@ -1,0 +1,42 @@
+/* Print styles, specifically for the invoice template */
+form {
+    display: none;
+}
+
+@page {
+    margin: 0.5cm;
+}
+
+body {
+    font: 10pt Georgia, "Times New Roman", Times, serif;
+    line-height: 1.3;
+}
+
+th {
+    font-size: 12px;
+}
+
+td {
+    font-size: 10px;
+}
+pre{
+    font-size: 10px;
+}
+
+.qi-invoice-details {
+    display: none;
+}
+.qi-invoice-status{
+    display:none;
+}
+
+.qi-invoice-status-print{
+    display:block;
+}
+.print-preview{
+    display:none;
+}
+
+.qi-logoImg{
+    max-width: 300px;
+}

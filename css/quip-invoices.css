@@ -1,0 +1,135 @@
+/* grid & base layout for form styles */
+
+._25 {
+    width: 21%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+._50 {
+    width: 46%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+._75 {
+    width: 71%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+._100 {
+    width: 96%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/* size classes */
+.qi-input-mini {
+    width: 60px;
+}
+
+.qi-input-small {
+    width: 90px;
+}
+
+.qi-input-medium {
+    width: 150px;
+}
+
+.qi-input-large {
+    width: 210px;
+}
+
+.qi-input-xlarge {
+    width: 270px;
+}
+
+.qi-input-xxlarge {
+    width: 530px;
+}
+
+#line-item-totals {
+    text-align: right;
+    float: right;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#line-item-totals strong {
+    margin-right: 20px;
+    float: left;
+    text-align: right;
+    width: 10em;
+    font-size: 16px;
+}
+
+#line-item-totals span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.qi-input-error
+{
+    border-color: #A94442;
+}
+
+.qi-invoice-status{
+    display:block;
+}
+
+.qi-invoice-status-print{
+    display:none;
+}
+
+.qi-logoImg{
+    max-width: 300px;
+}
+
+.qi-past-due
+{
+    color: #A94442;
+}
+
+.qi-paid
+{
+    color: #009444;
+}
+
+/* special rules for certain elements "responsive" */
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+
+    /* These stop the column text overlapping */
+    .wp-list-table.invoices{
+        table-layout: auto;
+    }
+    .wp-list-table.payments{
+        table-layout: auto;
+    }
+    .wp-list-table.clients{
+        table-layout: auto;
+    }
+    /* This adds scrollbars to the table wrapper */
+    .qu-list-table{
+        overflow: auto;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+}

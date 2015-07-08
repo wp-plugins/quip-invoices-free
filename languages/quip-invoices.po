@@ -1,0 +1,2070 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: quip-invoices\n"
+"POT-Creation-Date: 2015-07-05 12:20-0600\n"
+"PO-Revision-Date: 2015-07-05 12:21-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\quip-"
+"invoices\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: include/admin-menu.php:39 include/tables/quip-invoices-table-invoices.php:9
+#: view/details_page.php:199 view/help_page.php:49 view/invoices_page.php:10
+#: view/settings_page.php:303
+msgid "Invoices"
+msgstr "Invoices"
+
+#: include/admin-menu.php:43 include/admin-menu.php:44
+#: include/tables/quip-invoices-table-quotes.php:9 view/about_page.php:13
+#: view/help_page.php:88 view/quotes_page.php:10 view/settings_page.php:312
+msgid "Quotes"
+msgstr "Quotes"
+
+#: include/admin-menu.php:50 include/admin-menu.php:51
+#: include/tables/quip-invoices-table-payments.php:9 view/about_page.php:15
+#: view/help_page.php:26 view/help_page.php:107 view/invoice_template.php:130
+#: view/payments_page.php:11 view/settings_page.php:330
+msgid "Payments"
+msgstr "Payments"
+
+#: include/admin-menu.php:57 include/admin-menu.php:58
+#: include/tables/quip-invoices-table-clients.php:9 view/about_page.php:18
+#: view/clients_page.php:9 view/help_page.php:23 view/help_page.php:99
+#: view/settings_page.php:321
+msgid "Clients"
+msgstr "Clients"
+
+#: include/admin-menu.php:64 include/admin-menu.php:65 view/about_page.php:6
+#: view/help_page.php:29 view/help_page.php:115
+msgid "Settings"
+msgstr "Settings"
+
+#: include/admin-menu.php:72 include/admin-menu.php:73
+msgid "Help"
+msgstr "Help"
+
+#: include/admin-menu.php:78 include/admin-menu.php:79
+msgid "About"
+msgstr "About"
+
+#: include/admin-menu.php:445 view/edit_invoice_page.php:196
+#: view/invoices_page.php:181 view/send_invoice_page.php:106
+#: view/send_quote_page.php:96 view/settings_page.php:127
+msgid "Yes"
+msgstr "Yes"
+
+#: include/admin-menu.php:446 view/edit_invoice_page.php:198
+#: view/invoices_page.php:183 view/send_invoice_page.php:108
+#: view/send_quote_page.php:98 view/settings_page.php:129
+msgid "No"
+msgstr "No"
+
+#: include/admin-menu.php:447 view/edit_invoice_page.php:151
+#: view/edit_quote_page.php:145 view/invoices_page.php:131
+#: view/quotes_page.php:132
+msgid "Add"
+msgstr "Add"
+
+#: include/admin-menu.php:448
+#: include/tables/quip-invoices-table-clients.php:152
+#: include/tables/quip-invoices-table-invoices.php:160
+#: include/tables/quip-invoices-table-payments.php:154
+#: include/tables/quip-invoices-table-quotes.php:158
+#: view/edit_invoice_page.php:130 view/edit_quote_page.php:124
+#: view/help_page.php:82
+msgid "Delete"
+msgstr "Delete"
+
+#: include/admin-menu.php:452 include/admin-menu.php:475
+msgid "Title"
+msgstr "Title"
+
+#: include/admin-menu.php:453 include/admin-menu.php:476
+#: view/edit_invoice_page.php:114 view/edit_quote_page.php:108
+#: view/export.php:27 view/export.php:159 view/help_page.php:66
+#: view/invoice_template.php:91 view/invoices_page.php:106
+#: view/quote_template.php:75 view/quotes_page.php:107
+msgid "Rate"
+msgstr "Rate"
+
+#: include/admin-menu.php:454 include/admin-menu.php:477
+#: view/edit_invoice_page.php:115 view/edit_quote_page.php:109
+#: view/export.php:28 view/export.php:160 view/help_page.php:67
+#: view/invoice_template.php:92 view/invoices_page.php:107
+#: view/quote_template.php:76 view/quotes_page.php:108
+msgid "Quantity"
+msgstr "Quantity"
+
+#: include/admin-menu.php:455 include/admin-menu.php:478
+msgid "Adj"
+msgstr "Adj"
+
+#: include/admin-menu.php:456
+#: include/tables/quip-invoices-table-invoices.php:39
+#: include/templates.php:159 view/details_page.php:18
+#: view/details_page.php:206 view/edit_invoice_page.php:31 view/export.php:14
+#: view/export.php:112 view/help_page.php:52 view/invoice_template.php:69
+#: view/invoices_page.php:26 view/send_invoice_page.php:53
+msgid "Invoice Number"
+msgstr "Invoice Number"
+
+#: include/admin-menu.php:457 view/edit_invoice_page.php:40 view/export.php:15
+#: view/help_page.php:53 view/invoice_template.php:71
+#: view/invoices_page.php:35 view/send_invoice_page.php:55
+msgid "Invoice Date"
+msgstr "Invoice Date"
+
+#: include/admin-menu.php:458 include/admin-menu.php:481
+#: include/tables/quip-invoices-table-invoices.php:41
+#: include/templates.php:102 include/templates.php:123
+#: view/details_page.php:26 view/details_page.php:207 view/export.php:16
+#: view/help_page.php:54 view/invoice_template.php:73
+#: view/send_invoice_page.php:57
+msgid "Due Date"
+msgstr "Due Date"
+
+#: include/admin-menu.php:459 include/admin-menu.php:482
+#: include/admin-menu.php:498 view/clients_page.php:24
+#: view/edit_client_page.php:25 view/edit_invoice_page.php:87
+#: view/edit_quote_page.php:81 view/export.php:17 view/export.php:77
+#: view/export.php:113 view/export.php:149 view/invoices_page.php:79
+#: view/quotes_page.php:80
+msgid "Client Name"
+msgstr "Client Name"
+
+#: include/admin-menu.php:460 include/admin-menu.php:483
+#: include/admin-menu.php:499 view/clients_page.php:40
+#: view/edit_client_page.php:41 view/edit_invoice_page.php:95
+#: view/edit_quote_page.php:89 view/export.php:18 view/export.php:150
+#: view/invoices_page.php:87 view/quotes_page.php:88
+msgid "Client Email"
+msgstr "Client Email"
+
+#: include/admin-menu.php:461 include/admin-menu.php:484
+#: view/send_invoice_page.php:66 view/send_quote_page.php:57
+msgid "To Address"
+msgstr "To Address"
+
+#: include/admin-menu.php:462 include/admin-menu.php:485
+#: include/admin-menu.php:514 view/send_invoice_page.php:75
+#: view/send_quote_page.php:66
+msgid "Email Subject"
+msgstr "Email Subject"
+
+#: include/admin-menu.php:463 include/admin-menu.php:486
+#: include/admin-menu.php:515 view/send_invoice_page.php:86
+#: view/send_quote_page.php:77 view/settings_page.php:148
+#: view/settings_page.php:210
+msgid "Email Message"
+msgstr "Email Message"
+
+#: include/admin-menu.php:464 include/admin-menu.php:487
+msgid "Please use only numeric values for Rate, Quantity and Adjustment"
+msgstr "Please use only numeric values for Rate, Quantity and Adjustment"
+
+#: include/admin-menu.php:465
+msgid "You must select (or create) a client for this invoice."
+msgstr "You must select (or create) a client for this invoice."
+
+#: include/admin-menu.php:466 include/admin-menu.php:489
+msgid "You must have at least one line item."
+msgstr "You must have at least one line item."
+
+#: include/admin-menu.php:467
+msgid "Invoice successful."
+msgstr "Invoice successful."
+
+#: include/admin-menu.php:468
+msgid "Invoice sent."
+msgstr "Invoice sent."
+
+#: include/admin-menu.php:469
+msgid "Invoice copied."
+msgstr "Invoice copied."
+
+#: include/admin-menu.php:470
+msgid "Invoice deleted."
+msgstr "Invoice deleted."
+
+#: include/admin-menu.php:479 include/tables/quip-invoices-table-quotes.php:39
+#: view/edit_quote_page.php:26 view/export.php:146 view/quote_template.php:51
+#: view/quotes_page.php:26 view/send_quote_page.php:42
+msgid "Quote Number"
+msgstr "Quote Number"
+
+#: include/admin-menu.php:480 view/edit_quote_page.php:35 view/export.php:147
+#: view/quote_template.php:53 view/quotes_page.php:35
+#: view/send_quote_page.php:44
+msgid "Quote Date"
+msgstr "Quote Date"
+
+#: include/admin-menu.php:488
+msgid "You must select (or create) a client for this quote."
+msgstr "You must select (or create) a client for this quote."
+
+#: include/admin-menu.php:490
+msgid "Quote successful."
+msgstr "Quote successful."
+
+#: include/admin-menu.php:491
+msgid "Quote sent."
+msgstr "Quote sent."
+
+#: include/admin-menu.php:492
+msgid "Quote copied."
+msgstr "Quote copied."
+
+#: include/admin-menu.php:493
+msgid "Quote deleted."
+msgstr "Quote deleted."
+
+#: include/admin-menu.php:494
+msgid "Quote converted."
+msgstr "Quote converted."
+
+#: include/admin-menu.php:500
+msgid "Client saved."
+msgstr "Client saved."
+
+#: include/admin-menu.php:501
+msgid "Client deleted."
+msgstr "Client deleted."
+
+#: include/admin-menu.php:505 view/export.php:114 view/payments_page.php:47
+msgid "Payment Amount"
+msgstr "Payment Amount"
+
+#: include/admin-menu.php:506
+msgid "Payment added."
+msgstr "Payment added."
+
+#: include/admin-menu.php:507
+msgid "Payment deleted."
+msgstr "Payment deleted."
+
+#: include/admin-menu.php:512 view/settings_page.php:25
+msgid "Company Name"
+msgstr "Company Name"
+
+#: include/admin-menu.php:513 view/settings_page.php:34
+msgid "Company Email"
+msgstr "Company Email"
+
+#: include/admin-menu.php:516
+msgid "Reminder Email Subject"
+msgstr "Reminder Email Subject"
+
+#: include/admin-menu.php:517
+msgid "Reminders Email Message"
+msgstr "Reminders Email Message"
+
+#: include/admin-menu.php:518
+msgid "Quote Email Subject"
+msgstr "Quote Email Subject"
+
+#: include/admin-menu.php:519
+msgid "Quote Email Message"
+msgstr "Quote Email Message"
+
+#: include/admin-menu.php:520
+msgid "Settings updated."
+msgstr "Settings updated."
+
+#: include/client.php:29 include/client.php:50 include/client.php:76
+msgid "Please enter a valid email address."
+msgstr "Please enter a valid email address."
+
+#: include/invoice.php:32 include/invoice.php:90 include/quote.php:40
+#: include/quote.php:98
+msgid "Please enter at least one line item."
+msgstr "Please enter at least one line item."
+
+#: include/invoice.php:37
+msgid "This invoice number has already been used."
+msgstr "This invoice number has already been used."
+
+#: include/invoice.php:96
+msgid "This invoice number is used by another invoice."
+msgstr "This invoice number is used by another invoice."
+
+#: include/invoice.php:216
+msgid "Click here to view your invoice"
+msgstr "Click here to view your invoice"
+
+#: include/invoice.php:225 include/quote.php:247
+msgid ""
+"Unable to send email.  Please check your server is configured correctly and "
+"the to address(es) are valid."
+msgstr ""
+"Unable to send email.  Please check your server is configured correctly and "
+"the to address(es) are valid."
+
+#: include/models/invoice_status.php:93
+msgid "New"
+msgstr "New"
+
+#: include/models/invoice_status.php:94
+msgid "Sent"
+msgstr "Sent"
+
+#: include/models/invoice_status.php:95 quip-invoices.php:281
+msgid "Viewed"
+msgstr "Viewed"
+
+#: include/models/invoice_status.php:96
+msgid "Partially Paid"
+msgstr "Partially Paid"
+
+#: include/models/invoice_status.php:97
+msgid "Paid"
+msgstr "Paid"
+
+#: include/models/invoice_status.php:98
+msgid "(PAST DUE)"
+msgstr "(PAST DUE)"
+
+#: include/payment.php:127
+msgid "Payment Received"
+msgstr "Payment Received"
+
+#: include/quote.php:45
+msgid "This quote number has already been used."
+msgstr "This quote number has already been used."
+
+#: include/quote.php:104
+msgid "This quote number is used by another invoice/quote."
+msgstr "This quote number is used by another invoice/quote."
+
+#: include/quote.php:238
+msgid "Click here to view your quote"
+msgstr "Click here to view your quote"
+
+#: include/tables/quip-invoices-table-clients.php:8
+#: include/tables/quip-invoices-table-clients.php:39
+#: include/tables/quip-invoices-table-invoices.php:43
+#: include/tables/quip-invoices-table-quotes.php:42 view/details_page.php:164
+#: view/edit_invoice_page.php:67 view/edit_quote_page.php:64
+#: view/help_page.php:56 view/invoices_page.php:62 view/quotes_page.php:63
+msgid "Client"
+msgstr "Client"
+
+#: include/tables/quip-invoices-table-clients.php:40 view/details_page.php:172
+msgid "Contact Details"
+msgstr "Contact Details"
+
+#: include/tables/quip-invoices-table-clients.php:41
+msgid "Address"
+msgstr "Address"
+
+#: include/tables/quip-invoices-table-clients.php:42
+msgid "Amount Owed"
+msgstr "Amount Owed"
+
+#: include/tables/quip-invoices-table-clients.php:43
+msgid "Amount Paid"
+msgstr "Amount Paid"
+
+#: include/tables/quip-invoices-table-clients.php:151
+#: include/tables/quip-invoices-table-invoices.php:157
+#: include/tables/quip-invoices-table-payments.php:153 view/help_page.php:79
+msgid "Details"
+msgstr "Details"
+
+#: include/tables/quip-invoices-table-invoices.php:8
+#: include/tables/quip-invoices-table-payments.php:39
+#: view/invoice_template.php:5 view/invoice_template.php:41
+#: view/payments_page.php:27
+msgid "Invoice"
+msgstr "Invoice"
+
+#: include/tables/quip-invoices-table-invoices.php:40
+#: include/tables/quip-invoices-table-payments.php:42
+#: include/tables/quip-invoices-table-quotes.php:40 include/templates.php:160
+#: view/details_page.php:70 view/details_page.php:129
+msgid "Date"
+msgstr "Date"
+
+#: include/tables/quip-invoices-table-invoices.php:42
+#: include/tables/quip-invoices-table-quotes.php:44
+msgid "Status"
+msgstr "Status"
+
+#: include/tables/quip-invoices-table-invoices.php:44
+#: include/tables/quip-invoices-table-quotes.php:43
+#: view/edit_invoice_page.php:161 view/edit_quote_page.php:155
+#: view/export.php:20 view/export.php:30 view/export.php:152
+#: view/export.php:162 view/invoice_template.php:125
+#: view/invoices_page.php:141 view/quotes_page.php:142
+msgid "Total"
+msgstr "Total"
+
+#: include/tables/quip-invoices-table-invoices.php:45 view/export.php:21
+#: view/export.php:153
+msgid "Owed"
+msgstr "Owed"
+
+#: include/tables/quip-invoices-table-invoices.php:156
+#: include/tables/quip-invoices-table-quotes.php:154 view/help_page.php:78
+msgid "View"
+msgstr "View"
+
+#: include/tables/quip-invoices-table-invoices.php:158
+#: include/tables/quip-invoices-table-quotes.php:155 view/help_page.php:80
+msgid "Send"
+msgstr "Send"
+
+#: include/tables/quip-invoices-table-invoices.php:159
+#: include/tables/quip-invoices-table-quotes.php:157 view/help_page.php:81
+msgid "Copy"
+msgstr "Copy"
+
+#: include/tables/quip-invoices-table-invoices.php:173
+#: include/tables/quip-invoices-table-invoices.php:175
+#: include/tables/quip-invoices-table-quotes.php:182
+#: include/tables/quip-invoices-table-quotes.php:184
+msgid "on"
+msgstr "on"
+
+#: include/tables/quip-invoices-table-payments.php:8 view/export.php:117
+#: view/settings_page.php:14
+msgid "Payment"
+msgstr "Payment"
+
+#: include/tables/quip-invoices-table-payments.php:40
+#: include/templates.php:101 include/templates.php:122
+#: view/details_page.php:71 view/edit_invoice_page.php:117
+#: view/edit_quote_page.php:111 view/invoice_template.php:94
+#: view/invoices_page.php:109 view/quote_template.php:78
+#: view/quotes_page.php:110
+msgid "Amount"
+msgstr "Amount"
+
+#: include/tables/quip-invoices-table-payments.php:41 view/details_page.php:72
+#: view/details_page.php:130
+msgid "Type"
+msgstr "Type"
+
+#: include/tables/quip-invoices-table-payments.php:166
+#: view/details_page.php:89 view/edit_invoice_page.php:210 view/export.php:124
+#: view/invoices_page.php:194
+msgid "Credit Card"
+msgstr "Credit Card"
+
+#: include/tables/quip-invoices-table-payments.php:173
+#: view/details_page.php:90 view/export.php:125
+msgid "Mail"
+msgstr "Mail"
+
+#: include/tables/quip-invoices-table-payments.php:174
+#: view/details_page.php:91 view/export.php:79 view/export.php:126
+msgid "Phone"
+msgstr "Phone"
+
+#: include/tables/quip-invoices-table-payments.php:175
+#: view/details_page.php:92 view/export.php:127
+msgid "In Person"
+msgstr "In Person"
+
+#: include/tables/quip-invoices-table-quotes.php:8 view/quote_template.php:5
+#: view/quote_template.php:31
+msgid "Quote"
+msgstr "Quote"
+
+#: include/tables/quip-invoices-table-quotes.php:41 view/export.php:148
+#: view/send_quote_page.php:47
+msgid "Expiry Date"
+msgstr "Expiry Date"
+
+#: include/tables/quip-invoices-table-quotes.php:156 view/help_page.php:95
+msgid "Convert to Invoice"
+msgstr "Convert to Invoice"
+
+#: include/templates.php:99
+msgid "Your invoice is now available"
+msgstr "Your invoice is now available"
+
+#: include/templates.php:100 include/templates.php:121
+msgid "Please click on the link below to view and pay the invoice."
+msgstr "Please click on the link below to view and pay the invoice."
+
+#: include/templates.php:104 include/templates.php:125
+msgid "Thank you for your business"
+msgstr "Thank you for your business"
+
+#: include/templates.php:120
+msgid "Reminder: You have an invoice waiting to be paid"
+msgstr "Reminder: You have an invoice waiting to be paid"
+
+#: include/templates.php:141
+msgid "Your quote is now available"
+msgstr "Your quote is now available"
+
+#: include/templates.php:142
+msgid "Please click on the link below to view the quote."
+msgstr "Please click on the link below to view the quote."
+
+#: include/templates.php:143 view/quote_template.php:109
+#: view/send_quote_page.php:50
+msgid "Grand Total"
+msgstr "Grand Total"
+
+#: include/templates.php:145
+msgid "We look forward to working together"
+msgstr "We look forward to working together"
+
+#: include/templates.php:156 quip-invoices.php:481
+msgid "Invoice Notification"
+msgstr "Invoice Notification"
+
+#: include/templates.php:157
+msgid "We're just letting you know that the following recently occurred"
+msgstr "We're just letting you know that the following recently occurred"
+
+#: include/templates.php:158
+msgid "Event"
+msgstr "Event"
+
+#: include/templates.php:162
+msgid "Sent from"
+msgstr "Sent from"
+
+#: include/templates.php:162
+msgid "by Quip Invoices"
+msgstr "by Quip Invoices"
+
+#: quip-invoices.php:164 quip-invoices.php:193
+msgid "Your invoice from"
+msgstr "Your invoice from"
+
+#: quip-invoices.php:165 quip-invoices.php:194
+msgid "Reminder: Your invoice from"
+msgstr "Reminder: Your invoice from"
+
+#: quip-invoices.php:168 quip-invoices.php:197
+msgid "Your quote from"
+msgstr "Your quote from"
+
+#: quip-invoices.php:472
+msgid "Click here to view the invoice"
+msgstr "Click here to view the invoice"
+
+#: quip-invoices.php:517 view/export.php:83
+msgid "State"
+msgstr "State"
+
+#: quip-invoices.php:518 view/export.php:84
+msgid "Zip"
+msgstr "Zip"
+
+#: quip-invoices.php:525
+msgid "County"
+msgstr "County"
+
+#: quip-invoices.php:526
+msgid "Postcode"
+msgstr "Postcode"
+
+#: quip-invoices.php:530
+msgid "Province"
+msgstr "Province"
+
+#: quip-invoices.php:531
+msgid "Postal Code"
+msgstr "Postal Code"
+
+#: quip-invoices.php:534
+msgid "Region"
+msgstr "Region"
+
+#: quip-invoices.php:535
+msgid "Zip / Postcode"
+msgstr "Zip / Postcode"
+
+#: quip-invoices.php:551
+msgid "Processing Payment..."
+msgstr "Processing Payment..."
+
+#: quip-invoices.php:552 view/invoice_template.php:165
+msgid "Pay Now By Credit Card"
+msgstr "Pay Now By Credit Card"
+
+#: quip-invoices.php:553
+msgid "Invoice Payment:"
+msgstr "Invoice Payment:"
+
+#: quip-invoices.php:554
+msgid "Pay Now"
+msgstr "Pay Now"
+
+#: quip-invoices.php:555
+msgid "Payment Success!  Thank you for your payment."
+msgstr "Payment Success!  Thank you for your payment."
+
+#: view/about_page.php:2
+msgid "Welcome to "
+msgstr "Welcome to "
+
+#: view/about_page.php:3
+msgid ""
+"Thanks for installing Quip Invoices, the most complete invoicing plugin "
+"directly inside your WordPress dashboard."
+msgstr ""
+"Thanks for installing Quip Invoices, the most complete invoicing plugin "
+"directly inside your WordPress dashboard."
+
+#: view/about_page.php:5
+msgid "Quick Start Guide"
+msgstr "Quick Start Guide"
+
+#: view/about_page.php:10
+msgid "Features Include"
+msgstr "Features Include"
+
+#: view/about_page.php:11
+msgid "Invoicing Made Easy"
+msgstr "Invoicing Made Easy"
+
+#: view/about_page.php:12
+msgid ""
+"With a few clicks you can have an invoice created and ready to go, as easy "
+"as creating a new blog post! You can even copy old invoices with the click "
+"of a button meaning less work to get paid."
+msgstr ""
+"With a few clicks you can have an invoice created and ready to go, as easy "
+"as creating a new blog post! You can even copy old invoices with the click "
+"of a button meaning less work to get paid."
+
+#: view/about_page.php:14
+msgid ""
+"Send out quotes and add an expiry date too. If the client likes your quote, "
+"one click coverts it to an invoice."
+msgstr ""
+"Send out quotes and add an expiry date too. If the client likes your quote, "
+"one click coverts it to an invoice."
+
+#: view/about_page.php:16
+msgid ""
+"Built in credit card payments means your customers can pay their invoices as "
+"soon as they receive it and the money will hit your bank account in 2 days"
+msgstr ""
+"Built in credit card payments means your customers can pay their invoices as "
+"soon as they receive it and the money will hit your bank account in 2 days"
+
+#: view/about_page.php:17
+msgid ""
+"You can also allow invoices to accept partial payments or even manually add "
+"payments to invoices that you received via mail or phone."
+msgstr ""
+"You can also allow invoices to accept partial payments or even manually add "
+"payments to invoices that you received via mail or phone."
+
+#: view/about_page.php:19
+msgid ""
+"Save your regular clients and easily see who owes money, what invoices are "
+"outstanding and more."
+msgstr ""
+"Save your regular clients and easily see who owes money, what invoices are "
+"outstanding and more."
+
+#: view/about_page.php:20 view/help_page.php:137 view/settings_page.php:15
+msgid "Export"
+msgstr "Export"
+
+#: view/about_page.php:21
+msgid ""
+"Everything you create is fully exportable to your favorite spreadsheet "
+"program too."
+msgstr ""
+"Everything you create is fully exportable to your favorite spreadsheet "
+"program too."
+
+#: view/about_page.php:22
+msgid "Directly Send"
+msgstr "Directly Send"
+
+#: view/about_page.php:23
+msgid ""
+"Your invoices and quotes can be sent to your customers by email, with one "
+"click."
+msgstr ""
+"Your invoices and quotes can be sent to your customers by email, with one "
+"click."
+
+#: view/about_page.php:24
+msgid "Tracking"
+msgstr "Tracking"
+
+#: view/about_page.php:25
+msgid ""
+"Track the status of your invoices including knowing exactly when your "
+"clients receive, view and pay the invoice."
+msgstr ""
+"Track the status of your invoices including knowing exactly when your "
+"clients receive, view and pay the invoice."
+
+#: view/about_page.php:26
+msgid "Self Contained"
+msgstr "Self Contained"
+
+#: view/about_page.php:27
+msgid ""
+"The software was written in a self-contained way, meaning it won't take over "
+"your WordPress dashboard with lots of new buttons and menus"
+msgstr ""
+"The software was written in a self-contained way, meaning it won't take over "
+"your WordPress dashboard with lots of new buttons and menus"
+
+#: view/about_page.php:28
+msgid "Just one new section for Quip Invoices contains everything you need."
+msgstr "Just one new section for Quip Invoices contains everything you need."
+
+#: view/clients_page.php:10
+msgid "Create New Client"
+msgstr "Create New Client"
+
+#: view/clients_page.php:32 view/edit_client_page.php:33
+msgid "Client Contact Name"
+msgstr "Client Contact Name"
+
+#: view/clients_page.php:48 view/edit_client_page.php:49
+msgid "Client Alternate Email(s)"
+msgstr "Client Alternate Email(s)"
+
+#: view/clients_page.php:52 view/edit_client_page.php:53
+#: view/send_invoice_page.php:70 view/send_quote_page.php:61
+msgid ""
+"You can add multiple email addresses using a comma to separate. i.e. "
+"joe@example.com,sally@example.com"
+msgstr ""
+"You can add multiple email addresses using a comma to separate. i.e. "
+"joe@example.com,sally@example.com"
+
+#: view/clients_page.php:57 view/edit_client_page.php:58
+msgid "Client Phone"
+msgstr "Client Phone"
+
+#: view/clients_page.php:65 view/edit_client_page.php:66 view/export.php:80
+#: view/settings_page.php:50
+msgid "Address Line 1"
+msgstr "Address Line 1"
+
+#: view/clients_page.php:73 view/edit_client_page.php:74 view/export.php:81
+#: view/settings_page.php:58
+msgid "Address Line 2"
+msgstr "Address Line 2"
+
+#: view/clients_page.php:81 view/edit_client_page.php:82 view/export.php:82
+#: view/settings_page.php:66
+msgid "City"
+msgstr "City"
+
+#: view/clients_page.php:105 view/edit_client_page.php:106 view/export.php:85
+#: view/settings_page.php:90
+msgid "Country"
+msgstr "Country"
+
+#: view/clients_page.php:113
+msgid "Create Client"
+msgstr "Create Client"
+
+#: view/clients_page.php:124
+msgid "Delete Client?"
+msgstr "Delete Client?"
+
+#: view/clients_page.php:125
+msgid "This will delete this client. Are you sure?"
+msgstr "This will delete this client. Are you sure?"
+
+#: view/details_page.php:9 view/send_invoice_page.php:49
+msgid "Invoice Details"
+msgstr "Invoice Details"
+
+#: view/details_page.php:12 view/edit_invoice_page.php:15
+#: view/send_invoice_page.php:25
+msgid "DELETED INVOICE.  Data shown here for record keeping purposes."
+msgstr "DELETED INVOICE.  Data shown here for record keeping purposes."
+
+#: view/details_page.php:34 view/details_page.php:208
+#: view/invoice_template.php:75
+msgid "Invoice Total"
+msgstr "Invoice Total"
+
+#: view/details_page.php:42 view/details_page.php:209
+#: view/invoice_template.php:145 view/send_invoice_page.php:59
+msgid "Amount Due"
+msgstr "Amount Due"
+
+#: view/details_page.php:50 view/details_page.php:210
+msgid "Invoice Status"
+msgstr "Invoice Status"
+
+#: view/details_page.php:63
+msgid "Payments Received"
+msgstr "Payments Received"
+
+#: view/details_page.php:65
+msgid "No payments have been received."
+msgstr "No payments have been received."
+
+#: view/details_page.php:73
+msgid "Stripe ID"
+msgstr "Stripe ID"
+
+#: view/details_page.php:105
+msgid "Stripe ID for credit card payments only."
+msgstr "Stripe ID for credit card payments only."
+
+#: view/details_page.php:114
+msgid "Total Payments Received"
+msgstr "Total Payments Received"
+
+#: view/details_page.php:122
+msgid "Emails Sent"
+msgstr "Emails Sent"
+
+#: view/details_page.php:124
+msgid "This invoice has not been sent to the client via email"
+msgstr "This invoice has not been sent to the client via email"
+
+#: view/details_page.php:136 view/settings_page.php:135
+msgid "Invoice Email"
+msgstr "Invoice Email"
+
+#: view/details_page.php:141 view/settings_page.php:166
+msgid "Invoice Reminder Email"
+msgstr "Invoice Reminder Email"
+
+#: view/details_page.php:149 view/edit_invoice_page.php:12
+msgid "Edit Invoice"
+msgstr "Edit Invoice"
+
+#: view/details_page.php:150 view/send_invoice_page.php:23
+#: view/send_invoice_page.php:115
+msgid "Send Invoice"
+msgstr "Send Invoice"
+
+#: view/details_page.php:151
+msgid "Go to Client"
+msgstr "Go to Client"
+
+#: view/details_page.php:152
+msgid "Back to Invoices"
+msgstr "Back to Invoices"
+
+#: view/details_page.php:155 view/help_page.php:103
+msgid "Client Details"
+msgstr "Client Details"
+
+#: view/details_page.php:158 view/edit_client_page.php:10
+msgid "DELETED CLIENT.  Data shown here for record keeping purposes."
+msgstr "DELETED CLIENT.  Data shown here for record keeping purposes."
+
+#: view/details_page.php:184
+msgid "Total Outstanding"
+msgstr "Total Outstanding"
+
+#: view/details_page.php:192
+msgid "Total Paid"
+msgstr "Total Paid"
+
+#: view/details_page.php:201
+msgid "No invoices for this client."
+msgstr "No invoices for this client."
+
+#: view/details_page.php:241 view/edit_client_page.php:7
+msgid "Edit Client"
+msgstr "Edit Client"
+
+#: view/details_page.php:242
+msgid "Back to Clients"
+msgstr "Back to Clients"
+
+#: view/edit_client_page.php:114
+msgid "Update Client"
+msgstr "Update Client"
+
+#: view/edit_client_page.php:115 view/edit_invoice_page.php:104
+#: view/edit_invoice_page.php:178 view/edit_invoice_page.php:238
+#: view/edit_quote_page.php:98 view/edit_quote_page.php:172
+#: view/edit_quote_page.php:187 view/invoices_page.php:96
+#: view/invoices_page.php:163 view/quotes_page.php:97 view/quotes_page.php:164
+#: view/send_invoice_page.php:116 view/send_quote_page.php:106
+msgid "Cancel"
+msgstr "Cancel"
+
+#: view/edit_invoice_page.php:35 view/invoices_page.php:30
+msgid "An identifier for your invoice"
+msgstr "An identifier for your invoice"
+
+#: view/edit_invoice_page.php:49 view/invoices_page.php:44
+msgid "Invoice Due Date"
+msgstr "Invoice Due Date"
+
+#: view/edit_invoice_page.php:58 view/edit_quote_page.php:55
+#: view/help_page.php:55 view/invoices_page.php:53 view/quotes_page.php:54
+msgid "Notes"
+msgstr "Notes"
+
+#: view/edit_invoice_page.php:62 view/invoices_page.php:57
+msgid "Add notes for the client on the invoice"
+msgstr "Add notes for the client on the invoice"
+
+#: view/edit_invoice_page.php:76 view/edit_quote_page.php:73
+#: view/invoices_page.php:71 view/quotes_page.php:72
+msgid "Add New"
+msgstr "Add New"
+
+#: view/edit_invoice_page.php:78
+msgid ""
+"Changing clients is disabled after the invoice has been sent to or viewed by "
+"the client."
+msgstr ""
+"Changing clients is disabled after the invoice has been sent to or viewed by "
+"the client."
+
+#: view/edit_invoice_page.php:103 view/edit_quote_page.php:97
+#: view/invoices_page.php:95 view/quotes_page.php:96
+msgid "Create"
+msgstr "Create"
+
+#: view/edit_invoice_page.php:108 view/edit_quote_page.php:102
+#: view/help_page.php:62 view/invoices_page.php:100 view/quotes_page.php:101
+msgid "Line Items"
+msgstr "Line Items"
+
+#: view/edit_invoice_page.php:113 view/edit_quote_page.php:107
+#: view/export.php:26 view/export.php:158 view/help_page.php:65
+#: view/invoices_page.php:105 view/quotes_page.php:106
+msgid "Item"
+msgstr "Item"
+
+#: view/edit_invoice_page.php:116 view/edit_quote_page.php:110
+#: view/export.php:29 view/export.php:161 view/help_page.php:68
+#: view/invoice_template.php:93 view/invoices_page.php:108
+#: view/quote_template.php:77 view/quotes_page.php:109
+msgid "Adjustment"
+msgstr "Adjustment"
+
+#: view/edit_invoice_page.php:159 view/edit_quote_page.php:153
+#: view/invoices_page.php:139 view/quotes_page.php:140
+msgid "Sub Total"
+msgstr "Sub Total"
+
+#: view/edit_invoice_page.php:160 view/edit_quote_page.php:154
+#: view/export.php:19 view/export.php:151 view/invoice_template.php:121
+#: view/invoices_page.php:140 view/quote_template.php:105
+#: view/quotes_page.php:141
+msgid "Tax"
+msgstr "Tax"
+
+#: view/edit_invoice_page.php:169 view/edit_quote_page.php:163
+#: view/invoices_page.php:149 view/quotes_page.php:150
+msgid "Your details"
+msgstr "Your details"
+
+#: view/edit_invoice_page.php:176 view/edit_quote_page.php:170
+msgid "Change Details"
+msgstr "Change Details"
+
+#: view/edit_invoice_page.php:177 view/edit_quote_page.php:171
+#: view/invoices_page.php:162 view/quotes_page.php:163
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: view/edit_invoice_page.php:179 view/edit_quote_page.php:173
+#: view/invoices_page.php:164
+msgid "Your details are added to the invoice."
+msgstr "Your details are added to the invoice."
+
+#: view/edit_invoice_page.php:183 view/invoices_page.php:168
+#, php-format
+msgid ""
+"Defaults to your <a href=\"%s\">settings</a>, but you can customize them per "
+"invoice."
+msgstr ""
+"Defaults to your <a href=\"%s\">settings</a>, but you can customize them per "
+"invoice."
+
+#: view/edit_invoice_page.php:192 view/invoices_page.php:177
+msgid "Allow Partial Payment"
+msgstr "Allow Partial Payment"
+
+#: view/edit_invoice_page.php:200 view/invoices_page.php:185
+msgid ""
+"For credit card payments online only, allow the client to make a payment "
+"less than the total amount due."
+msgstr ""
+"For credit card payments online only, allow the client to make a payment "
+"less than the total amount due."
+
+#: view/edit_invoice_page.php:205 view/invoices_page.php:190
+msgid "Payment Types Allowed"
+msgstr "Payment Types Allowed"
+
+#: view/edit_invoice_page.php:214 view/invoices_page.php:198
+msgid "Pay via Mail"
+msgstr "Pay via Mail"
+
+#: view/edit_invoice_page.php:218 view/invoices_page.php:202
+msgid "Pay via Phone"
+msgstr "Pay via Phone"
+
+#: view/edit_invoice_page.php:227 view/help_page.php:60
+#: view/invoice_template.php:182 view/invoices_page.php:211
+msgid "Payment Instructions"
+msgstr "Payment Instructions"
+
+#: view/edit_invoice_page.php:231 view/invoices_page.php:215
+msgid ""
+"Extra instructions for payment via phone or mail. Leave blank to not show on "
+"invoice."
+msgstr ""
+"Extra instructions for payment via phone or mail. Leave blank to not show on "
+"invoice."
+
+#: view/edit_invoice_page.php:237
+msgid "Update Invoice"
+msgstr "Update Invoice"
+
+#: view/edit_quote_page.php:7
+msgid "Edit Quote"
+msgstr "Edit Quote"
+
+#: view/edit_quote_page.php:10 view/send_quote_page.php:17
+msgid "DELETED QUOTE.  Data shown here for record keeping purposes."
+msgstr "DELETED QUOTE.  Data shown here for record keeping purposes."
+
+#: view/edit_quote_page.php:30 view/quotes_page.php:30
+msgid "An identifier for your quote"
+msgstr "An identifier for your quote"
+
+#: view/edit_quote_page.php:44 view/quotes_page.php:44
+msgid "Quote Expiry Date"
+msgstr "Quote Expiry Date"
+
+#: view/edit_quote_page.php:50
+msgid "The date this quote expires. Leave blank for no expiry."
+msgstr "The date this quote expires. Leave blank for no expiry."
+
+#: view/edit_quote_page.php:59 view/quotes_page.php:58
+msgid "Add notes for the client on the quote"
+msgstr "Add notes for the client on the quote"
+
+#: view/edit_quote_page.php:177 view/quotes_page.php:169
+#, php-format
+msgid ""
+"Defaults to your <a href=\"%s\">settings</a>, but you can customize them per "
+"quote."
+msgstr ""
+"Defaults to your <a href=\"%s\">settings</a>, but you can customize them per "
+"quote."
+
+#: view/edit_quote_page.php:186
+msgid "Update Quote"
+msgstr "Update Quote"
+
+#: view/error_page.php:4
+msgid "Error"
+msgstr "Error"
+
+#: view/error_page.php:5
+msgid "Something went wrong... Please go back to the previous page."
+msgstr "Something went wrong... Please go back to the previous page."
+
+#: view/export.php:78 view/settings_page.php:13
+msgid "Email"
+msgstr "Email"
+
+#: view/export.php:86
+msgid "Customer"
+msgstr "Customer"
+
+#: view/export.php:115
+msgid "Payment Date"
+msgstr "Payment Date"
+
+#: view/export.php:116 view/payments_page.php:65
+msgid "Payment Type"
+msgstr "Payment Type"
+
+#: view/help_page.php:2
+msgid "Quip Invoices Help"
+msgstr "Quip Invoices Help"
+
+#: view/help_page.php:3
+msgid "We're here to help."
+msgstr "We're here to help."
+
+#: view/help_page.php:3
+msgid ""
+"This section contains all you need to know to get started using Quip "
+"Invoices."
+msgstr ""
+"This section contains all you need to know to get started using Quip "
+"Invoices."
+
+#: view/help_page.php:4
+msgid ""
+"If you need more assistance, please click the support button below to get in "
+"touch."
+msgstr ""
+"If you need more assistance, please click the support button below to get in "
+"touch."
+
+#: view/help_page.php:7
+msgid "Support"
+msgstr "Support"
+
+#: view/help_page.php:8
+msgid "Visit our website"
+msgstr "Visit our website"
+
+#: view/help_page.php:17 view/help_page.php:35
+msgid "Quick Start"
+msgstr "Quick Start"
+
+#: view/help_page.php:20 view/help_page.php:47
+msgid "Invoices & Quotes"
+msgstr "Invoices & Quotes"
+
+#: view/help_page.php:36
+msgid ""
+"The following steps are the minimum you need to get started using Quip "
+"Invoices"
+msgstr ""
+"The following steps are the minimum you need to get started using Quip "
+"Invoices"
+
+#: view/help_page.php:38
+msgid "Setup your company name and email address from the settings page."
+msgstr "Setup your company name and email address from the settings page."
+
+#: view/help_page.php:38
+msgid "View settings"
+msgstr "View settings"
+
+#: view/help_page.php:39
+msgid "If you want to accept credit cards, fill in your Stripe API details."
+msgstr "If you want to accept credit cards, fill in your Stripe API details."
+
+#: view/help_page.php:39
+msgid "Payment settings"
+msgstr "Payment settings"
+
+#: view/help_page.php:40
+msgid "Also on the payment settings page, select the currency you wish to use."
+msgstr ""
+"Also on the payment settings page, select the currency you wish to use."
+
+#: view/help_page.php:41
+msgid "Check the email default settings to make sure you're happy with them. "
+msgstr "Check the email default settings to make sure you're happy with them. "
+
+#: view/help_page.php:41
+msgid "Email settings"
+msgstr "Email settings"
+
+#: view/help_page.php:42
+msgid "Now you can create your first invoice from the create invoice page! "
+msgstr "Now you can create your first invoice from the create invoice page! "
+
+#: view/help_page.php:42 view/invoices_page.php:221
+msgid "Create Invoice"
+msgstr "Create Invoice"
+
+#: view/help_page.php:43
+msgid ""
+"Happy Invoicing!  Remember, you can always ask us for help if you need it. "
+msgstr ""
+"Happy Invoicing!  Remember, you can always ask us for help if you need it. "
+
+#: view/help_page.php:48
+msgid ""
+"Invoices and Quotes are central to Quip Invoices and allow you to quickly "
+"and easily create and send detailed invoices and quotes to your customers."
+msgstr ""
+"Invoices and Quotes are central to Quip Invoices and allow you to quickly "
+"and easily create and send detailed invoices and quotes to your customers."
+
+#: view/help_page.php:50
+msgid "Invoices in Quip Invoices consist of the following data:"
+msgstr "Invoices in Quip Invoices consist of the following data:"
+
+#: view/help_page.php:52
+msgid ""
+"A unique identifier for your invoice, can be any combination of text, "
+"symbols and numbers and should not be the same as another invoice or quote."
+msgstr ""
+"A unique identifier for your invoice, can be any combination of text, "
+"symbols and numbers and should not be the same as another invoice or quote."
+
+#: view/help_page.php:53
+msgid "The date the invoice was created."
+msgstr "The date the invoice was created."
+
+#: view/help_page.php:54
+msgid ""
+"The deadline for payment of this invoice.  After this date the invoice will "
+"be marked as PAST DUE."
+msgstr ""
+"The deadline for payment of this invoice.  After this date the invoice will "
+"be marked as PAST DUE."
+
+#: view/help_page.php:55
+msgid ""
+"You can add notes to the invoice for your customer.  These can be about "
+"anything you like and are added to the bottom of the invoice."
+msgstr ""
+"You can add notes to the invoice for your customer.  These can be about "
+"anything you like and are added to the bottom of the invoice."
+
+#: view/help_page.php:56
+msgid ""
+"This is the client/customer the invoice is for.  All invoices must be for a "
+"specific client and you can quickly create new clients when creating your "
+"invoices."
+msgstr ""
+"This is the client/customer the invoice is for.  All invoices must be for a "
+"specific client and you can quickly create new clients when creating your "
+"invoices."
+
+#: view/help_page.php:57
+msgid "Your Details"
+msgstr "Your Details"
+
+#: view/help_page.php:57
+msgid ""
+"These are your company/personal details added to the invoice to show who is "
+"issuing the invoice.  They default to your company settings but you can "
+"customize per invoice too."
+msgstr ""
+"These are your company/personal details added to the invoice to show who is "
+"issuing the invoice.  They default to your company settings but you can "
+"customize per invoice too."
+
+#: view/help_page.php:58
+msgid "Partial Payments"
+msgstr "Partial Payments"
+
+#: view/help_page.php:58
+msgid ""
+"You can choose to allow or disallow partial payment of invoices.  If "
+"allowed, when viewing the invoice your customer is able to select a custom "
+"payment amount when paying by credit card."
+msgstr ""
+"You can choose to allow or disallow partial payment of invoices.  If "
+"allowed, when viewing the invoice your customer is able to select a custom "
+"payment amount when paying by credit card."
+
+#: view/help_page.php:59
+msgid "Payment Types"
+msgstr "Payment Types"
+
+#: view/help_page.php:59
+msgid ""
+"Choose which payment types you accept.  These will be shown on the invoice "
+"the customer sees."
+msgstr ""
+"Choose which payment types you accept.  These will be shown on the invoice "
+"the customer sees."
+
+#: view/help_page.php:60
+msgid ""
+"If you choose mail or phone payments you can give extra instructions on how "
+"to make payment, such as bank details or times to call."
+msgstr ""
+"If you choose mail or phone payments you can give extra instructions on how "
+"to make payment, such as bank details or times to call."
+
+#: view/help_page.php:63
+msgid "These are the products or services you are invoicing your customer for."
+msgstr ""
+"These are the products or services you are invoicing your customer for."
+
+#: view/help_page.php:63
+msgid "Line items have the following data"
+msgstr "Line items have the following data"
+
+#: view/help_page.php:65
+msgid "This is the name of the product or service you are billing for"
+msgstr "This is the name of the product or service you are billing for"
+
+#: view/help_page.php:66
+msgid "The base rate you charge for this product or service"
+msgstr "The base rate you charge for this product or service"
+
+#: view/help_page.php:67
+msgid "The quantity of the product or service"
+msgstr "The quantity of the product or service"
+
+#: view/help_page.php:68
+msgid ""
+"A percentage adjustment of the line item amount.  For example a discount or "
+"per-item tax."
+msgstr ""
+"A percentage adjustment of the line item amount.  For example a discount or "
+"per-item tax."
+
+#: view/help_page.php:71
+msgid "Tax Rate"
+msgstr "Tax Rate"
+
+#: view/help_page.php:71
+msgid ""
+"You can set the tax rate (as a percentage) for the invoice which is "
+"calculated automatically."
+msgstr ""
+"You can set the tax rate (as a percentage) for the invoice which is "
+"calculated automatically."
+
+#: view/help_page.php:73
+msgid "Invoice Actions"
+msgstr "Invoice Actions"
+
+#: view/help_page.php:74
+msgid ""
+"Once created, you can easily view the invoice from the Invoice page where it "
+"will be displayed in a sortable table."
+msgstr ""
+"Once created, you can easily view the invoice from the Invoice page where it "
+"will be displayed in a sortable table."
+
+#: view/help_page.php:75
+msgid "From this table you may perform the following actions "
+msgstr "From this table you may perform the following actions "
+
+#: view/help_page.php:77
+msgid "Edit"
+msgstr "Edit"
+
+#: view/help_page.php:77
+msgid "Edit the invoice by clicking the invoice number."
+msgstr "Edit the invoice by clicking the invoice number."
+
+#: view/help_page.php:78
+msgid "View the invoice as the customer will see it."
+msgstr "View the invoice as the customer will see it."
+
+#: view/help_page.php:79
+msgid ""
+"View details about the invoice including emails sent and payments received."
+msgstr ""
+"View details about the invoice including emails sent and payments received."
+
+#: view/help_page.php:80
+msgid "Send the invoice via email."
+msgstr "Send the invoice via email."
+
+#: view/help_page.php:81
+msgid ""
+"Make an exact copy of this invoice.  Useful for quickly creating new "
+"invoices."
+msgstr ""
+"Make an exact copy of this invoice.  Useful for quickly creating new "
+"invoices."
+
+#: view/help_page.php:82
+msgid "This will delete the invoice and all line items."
+msgstr "This will delete the invoice and all line items."
+
+#: view/help_page.php:84
+msgid "Sending Invoices"
+msgstr "Sending Invoices"
+
+#: view/help_page.php:85
+msgid ""
+"Once created, you can send invoices via email by clicking the Send link for "
+"the invoice from the Invoices page."
+msgstr ""
+"Once created, you can send invoices via email by clicking the Send link for "
+"the invoice from the Invoices page."
+
+#: view/help_page.php:86
+msgid ""
+"This will take you to a page where you can decide on the email content as "
+"well as choose to send to multiple email addresses.  The client data is pre-"
+"filled for your convenience, as are the email defaults taken from your "
+"settings."
+msgstr ""
+"This will take you to a page where you can decide on the email content as "
+"well as choose to send to multiple email addresses.  The client data is pre-"
+"filled for your convenience, as are the email defaults taken from your "
+"settings."
+
+#: view/help_page.php:87
+msgid ""
+"Once sent, the invoice status will be updated to Sent and Quip Invoices will "
+"track when the client views the invoice."
+msgstr ""
+"Once sent, the invoice status will be updated to Sent and Quip Invoices will "
+"track when the client views the invoice."
+
+#: view/help_page.php:89
+msgid ""
+"Quotes are very similar to invoices (internally they are treated almost the "
+"same) except they are only used to give prices to clients, not accept "
+"payments."
+msgstr ""
+"Quotes are very similar to invoices (internally they are treated almost the "
+"same) except they are only used to give prices to clients, not accept "
+"payments."
+
+#: view/help_page.php:90
+msgid ""
+"This means that all the data and actions you can do with Invoices you can do "
+"with Quotes except choosing payment options."
+msgstr ""
+"This means that all the data and actions you can do with Invoices you can do "
+"with Quotes except choosing payment options."
+
+#: view/help_page.php:91
+msgid ""
+"Also, Quotes will not be able to accept payments from customers, simply "
+"showing the grand total amount for the line items on the quote."
+msgstr ""
+"Also, Quotes will not be able to accept payments from customers, simply "
+"showing the grand total amount for the line items on the quote."
+
+#: view/help_page.php:92
+msgid "Quote Actions"
+msgstr "Quote Actions"
+
+#: view/help_page.php:93
+msgid "Quotes have the same actions as Invoices, plus"
+msgstr "Quotes have the same actions as Invoices, plus"
+
+#: view/help_page.php:95
+msgid ""
+"This will convert a Quote to an Invoice, adding the ability to accept "
+"payment."
+msgstr ""
+"This will convert a Quote to an Invoice, adding the ability to accept "
+"payment."
+
+#: view/help_page.php:100
+msgid ""
+"Quip Invoices lets you store client details to make it easier to create "
+"invoices and track what is owed."
+msgstr ""
+"Quip Invoices lets you store client details to make it easier to create "
+"invoices and track what is owed."
+
+#: view/help_page.php:101
+msgid ""
+"Creating a new client is straightforward, simply click the Create New Client "
+"tab from the Clients page and fill out information such as name, email and "
+"address."
+msgstr ""
+"Creating a new client is straightforward, simply click the Create New Client "
+"tab from the Clients page and fill out information such as name, email and "
+"address."
+
+#: view/help_page.php:102
+msgid ""
+"You can also create new clients during creation of an invoice by clicking "
+"the 'Add New' link and adding the client name and email."
+msgstr ""
+"You can also create new clients during creation of an invoice by clicking "
+"the 'Add New' link and adding the client name and email."
+
+#: view/help_page.php:104
+msgid ""
+"Clients have a details page, accessed from the Clients list action "
+"'Details', which shows all the client invoices and any outstanding balances. "
+msgstr ""
+"Clients have a details page, accessed from the Clients list action "
+"'Details', which shows all the client invoices and any outstanding balances. "
+
+#: view/help_page.php:108
+msgid "The payments page keeps track of all received payments."
+msgstr "The payments page keeps track of all received payments."
+
+#: view/help_page.php:108
+msgid ""
+"When a client pays an invoice via credit card directly, the payment data is "
+"stored and available from the Payments page."
+msgstr ""
+"When a client pays an invoice via credit card directly, the payment data is "
+"stored and available from the Payments page."
+
+#: view/help_page.php:109
+msgid ""
+"Manually added payments are also stored here and you can easily view and "
+"sort payments as well as view the related invoice details."
+msgstr ""
+"Manually added payments are also stored here and you can easily view and "
+"sort payments as well as view the related invoice details."
+
+#: view/help_page.php:110
+msgid "Manual Payments"
+msgstr "Manual Payments"
+
+#: view/help_page.php:111
+msgid ""
+"For invoice payments you receive via mail, phone or in person you can add a "
+"manual payment by clicking the 'Add Payment' tab."
+msgstr ""
+"For invoice payments you receive via mail, phone or in person you can add a "
+"manual payment by clicking the 'Add Payment' tab."
+
+#: view/help_page.php:112
+msgid ""
+"Simply fill out the payment amount (in cents), the date and the type of "
+"payment as well as selecting the invoice to apply the payment too.  The "
+"invoice will be updated to show the payment received."
+msgstr ""
+"Simply fill out the payment amount (in cents), the date and the type of "
+"payment as well as selecting the invoice to apply the payment too.  The "
+"invoice will be updated to show the payment received."
+
+#: view/help_page.php:116
+msgid "Setting up Quip Invoices is easy!"
+msgstr "Setting up Quip Invoices is easy!"
+
+#: view/help_page.php:117
+msgid "Basic Settings"
+msgstr "Basic Settings"
+
+#: view/help_page.php:118
+msgid ""
+"Basic settings include adding values for your company name, email, phone and "
+"address which will be included on your invoices by default.  Only the "
+"company name and email are required however."
+msgstr ""
+"Basic settings include adding values for your company name, email, phone and "
+"address which will be included on your invoices by default.  Only the "
+"company name and email are required however."
+
+#: view/help_page.php:119
+msgid ""
+"You can also set an image for company logo here, uploaded from your "
+"WordPress Media Library.  Recommended size around 200px wide by 50px height."
+msgstr ""
+"You can also set an image for company logo here, uploaded from your "
+"WordPress Media Library.  Recommended size around 200px wide by 50px height."
+
+#: view/help_page.php:120
+msgid ""
+"Leaving the logo image blank will use your company name on invoices instead."
+msgstr ""
+"Leaving the logo image blank will use your company name on invoices instead."
+
+#: view/help_page.php:121
+msgid "Email Settings"
+msgstr "Email Settings"
+
+#: view/help_page.php:122
+msgid ""
+"The email settings allow you to set defaults for the subject line and "
+"message content of your invoice related emails."
+msgstr ""
+"The email settings allow you to set defaults for the subject line and "
+"message content of your invoice related emails."
+
+#: view/help_page.php:123
+msgid ""
+"You can use basic HTML in your email messages (use the Text tab on the "
+"editor) and there are also several dynamic tags"
+msgstr ""
+"You can use basic HTML in your email messages (use the Text tab on the "
+"editor) and there are also several dynamic tags"
+
+#: view/help_page.php:125 view/send_invoice_page.php:93
+#: view/settings_page.php:154 view/settings_page.php:185
+msgid "The invoice total amount value"
+msgstr "The invoice total amount value"
+
+#: view/help_page.php:126 view/send_invoice_page.php:94
+#: view/settings_page.php:156 view/settings_page.php:187
+msgid "The invoice due date"
+msgstr "The invoice due date"
+
+#: view/help_page.php:127 view/send_invoice_page.php:95
+#: view/settings_page.php:158 view/settings_page.php:189
+msgid "A link to view the invoice online"
+msgstr "A link to view the invoice online"
+
+#: view/help_page.php:128 view/send_invoice_page.php:96
+#: view/settings_page.php:160 view/settings_page.php:191
+msgid "Your company details for this invoice (Name, Address, Phone, Email)"
+msgstr "Your company details for this invoice (Name, Address, Phone, Email)"
+
+#: view/help_page.php:130
+msgid ""
+"Wherever in the email message you place one of the dynamic tags, Quip "
+"Invoices will automatically substitute the correct invoice/quote information "
+"before sending the email."
+msgstr ""
+"Wherever in the email message you place one of the dynamic tags, Quip "
+"Invoices will automatically substitute the correct invoice/quote information "
+"before sending the email."
+
+#: view/help_page.php:131
+msgid "Payment Settings"
+msgstr "Payment Settings"
+
+#: view/help_page.php:132
+msgid ""
+"If you'd like to accept credit cards, you first need a free account from "
+"Stripe"
+msgstr ""
+"If you'd like to accept credit cards, you first need a free account from "
+"Stripe"
+
+#: view/help_page.php:132
+msgid "Get a free Stripe account here"
+msgstr "Get a free Stripe account here"
+
+#: view/help_page.php:133
+msgid ""
+"Once you have an account, fill out the API key fields on the payment "
+"settings page and Quip Invoices will take care of the rest."
+msgstr ""
+"Once you have an account, fill out the API key fields on the payment "
+"settings page and Quip Invoices will take care of the rest."
+
+#: view/help_page.php:134
+msgid ""
+"Here you can also set the currency your account is using, which also "
+"determines the currency shown throughout the plugin and on invoices and "
+"quotes."
+msgstr ""
+"Here you can also set the currency your account is using, which also "
+"determines the currency shown throughout the plugin and on invoices and "
+"quotes."
+
+#: view/help_page.php:135
+msgid ""
+"Finally, you can choose to put the plugin in Test mode which will only run "
+"test credit card payments.  Once you are ready to accept real payments "
+"please switch this to Live mode."
+msgstr ""
+"Finally, you can choose to put the plugin in Test mode which will only run "
+"test credit card payments.  Once you are ready to accept real payments "
+"please switch this to Live mode."
+
+#: view/help_page.php:138
+msgid ""
+"Use the buttons on the Export page to download CSV files containing all of "
+"your invoices, payments and clients."
+msgstr ""
+"Use the buttons on the Export page to download CSV files containing all of "
+"your invoices, payments and clients."
+
+#: view/invoice_template.php:34 view/invoice_template.php:48
+msgid "PAID"
+msgstr "PAID"
+
+#: view/invoice_template.php:36 view/invoice_template.php:50
+msgid "PAST DUE"
+msgstr "PAST DUE"
+
+#: view/invoice_template.php:45
+msgid "Print This Invoice"
+msgstr "Print This Invoice"
+
+#: view/invoice_template.php:51
+msgid "Due"
+msgstr "Due"
+
+#: view/invoice_template.php:90 view/quote_template.php:74
+msgid "Product/Service"
+msgstr "Product/Service"
+
+#: view/invoice_template.php:117 view/quote_template.php:101
+msgid "Sub-total"
+msgstr "Sub-total"
+
+#: view/invoice_template.php:157
+msgid "Pay a different amount"
+msgstr "Pay a different amount"
+
+#: view/invoices_page.php:11
+msgid "Create New Invoice"
+msgstr "Create New Invoice"
+
+#: view/invoices_page.php:158 view/quotes_page.php:159
+msgid "No details set!"
+msgstr "No details set!"
+
+#: view/invoices_page.php:161 view/quotes_page.php:162
+msgid "Change details"
+msgstr "Change details"
+
+#: view/invoices_page.php:232
+msgid "This will delete this invoice and all related items. Are you sure?"
+msgstr "This will delete this invoice and all related items. Are you sure?"
+
+#: view/payments_page.php:12 view/payments_page.php:86
+msgid "Add Payment"
+msgstr "Add Payment"
+
+#: view/payments_page.php:21
+msgid ""
+"Use this form to manually add a payment. Useful for updating invoices that "
+"received payments offline, such as in-person, by mail or by phone."
+msgstr ""
+"Use this form to manually add a payment. Useful for updating invoices that "
+"received payments offline, such as in-person, by mail or by phone."
+
+#: view/payments_page.php:41
+msgid "This invoice has"
+msgstr "This invoice has"
+
+#: view/payments_page.php:42
+msgid "outstanding"
+msgstr "outstanding"
+
+#: view/payments_page.php:51
+msgid "Please add amount in cents/pence"
+msgstr "Please add amount in cents/pence"
+
+#: view/payments_page.php:56
+msgid "Date Received"
+msgstr "Date Received"
+
+#: view/payments_page.php:69
+msgid "In Person Payment"
+msgstr "In Person Payment"
+
+#: view/payments_page.php:70
+msgid "Mail Payment"
+msgstr "Mail Payment"
+
+#: view/payments_page.php:71
+msgid "Phone Payment"
+msgstr "Phone Payment"
+
+#: view/payments_page.php:79
+msgid "Adding this payment will leave"
+msgstr "Adding this payment will leave"
+
+#: view/payments_page.php:80
+msgid "remaining to be paid on this invoice"
+msgstr "remaining to be paid on this invoice"
+
+#: view/payments_page.php:98
+msgid "This will"
+msgstr "This will"
+
+#: view/payments_page.php:98
+msgid "permanently delete"
+msgstr "permanently delete"
+
+#: view/payments_page.php:98
+msgid "this payment and update the related invoice owed amount. Are you sure?"
+msgstr "this payment and update the related invoice owed amount. Are you sure?"
+
+#: view/quote_template.php:35
+msgid "Print This Quote"
+msgstr "Print This Quote"
+
+#: view/quote_template.php:56
+msgid "Quote Expiry"
+msgstr "Quote Expiry"
+
+#: view/quote_template.php:59
+msgid "Quote Total"
+msgstr "Quote Total"
+
+#: view/quotes_page.php:11
+msgid "Create New Quote"
+msgstr "Create New Quote"
+
+#: view/quotes_page.php:165
+msgid "Your details are added to the quote."
+msgstr "Your details are added to the quote."
+
+#: view/quotes_page.php:178
+msgid "Create Quote"
+msgstr "Create Quote"
+
+#: view/quotes_page.php:189
+msgid "This will delete this quote and all related items. Are you sure?"
+msgstr "This will delete this quote and all related items. Are you sure?"
+
+#: view/send_invoice_page.php:33
+msgid ""
+"Use this form to send the invoice directly to your customer via email. The "
+"customer will receive an email containing a link allowing them to view the "
+"invoice online."
+msgstr ""
+"Use this form to send the invoice directly to your customer via email. The "
+"customer will receive an email containing a link allowing them to view the "
+"invoice online."
+
+#: view/send_invoice_page.php:35 view/send_quote_page.php:27
+msgid "Please make sure your web server supports sending email"
+msgstr "Please make sure your web server supports sending email"
+
+#: view/send_invoice_page.php:35 view/send_quote_page.php:27
+msgid "otherwise this will not work."
+msgstr "otherwise this will not work."
+
+#: view/send_invoice_page.php:38
+msgid "You sent this invoice on: "
+msgstr "You sent this invoice on: "
+
+#: view/send_invoice_page.php:40
+msgid "You last sent a reminder on: "
+msgstr "You last sent a reminder on: "
+
+#: view/send_invoice_page.php:79 view/send_quote_page.php:70
+msgid "The  email subject line"
+msgstr "The  email subject line"
+
+#: view/send_invoice_page.php:79 view/send_invoice_page.php:90
+#: view/send_quote_page.php:70 view/send_quote_page.php:81
+msgid "Defaults to your"
+msgstr "Defaults to your"
+
+#: view/send_invoice_page.php:80 view/send_invoice_page.php:91
+#: view/send_quote_page.php:71 view/send_quote_page.php:82
+msgid "settings"
+msgstr "settings"
+
+#: view/send_invoice_page.php:90 view/send_quote_page.php:81
+msgid "The email message body"
+msgstr "The email message body"
+
+#: view/send_invoice_page.php:92 view/send_quote_page.php:83
+msgid "You can use the following dynamic tags"
+msgstr "You can use the following dynamic tags"
+
+#: view/send_invoice_page.php:102 view/send_quote_page.php:92
+msgid "Send Copy To Admin"
+msgstr "Send Copy To Admin"
+
+#: view/send_invoice_page.php:110 view/send_quote_page.php:100
+msgid "Send a copy of this email to yourself as well."
+msgstr "Send a copy of this email to yourself as well."
+
+#: view/send_quote_page.php:15 view/send_quote_page.php:105
+msgid "Send Quote"
+msgstr "Send Quote"
+
+#: view/send_quote_page.php:25
+msgid ""
+"Use this form to send the quote directly to your customer via email. The "
+"customer will receive an email containing a link allowing them to view the "
+"quote online."
+msgstr ""
+"Use this form to send the quote directly to your customer via email. The "
+"customer will receive an email containing a link allowing them to view the "
+"quote online."
+
+#: view/send_quote_page.php:30
+msgid "You last sent this quote on: "
+msgstr "You last sent this quote on: "
+
+#: view/send_quote_page.php:38
+msgid "Quote Details"
+msgstr "Quote Details"
+
+#: view/send_quote_page.php:84 view/settings_page.php:216
+msgid "The quote grand total amount"
+msgstr "The quote grand total amount"
+
+#: view/send_quote_page.php:85 view/settings_page.php:218
+msgid "A link to view the quote online"
+msgstr "A link to view the quote online"
+
+#: view/send_quote_page.php:86 view/settings_page.php:220
+msgid "Your company details for this quote (Name, Address, Phone, Email)"
+msgstr "Your company details for this quote (Name, Address, Phone, Email)"
+
+#: view/settings_page.php:12
+msgid "Basic"
+msgstr "Basic"
+
+#: view/settings_page.php:29
+msgid ""
+"Your default company name to be shown on invoices (can be customized per "
+"invoice)"
+msgstr ""
+"Your default company name to be shown on invoices (can be customized per "
+"invoice)"
+
+#: view/settings_page.php:42
+msgid "Company Phone"
+msgstr "Company Phone"
+
+#: view/settings_page.php:98
+msgid "Company Logo"
+msgstr "Company Logo"
+
+#: view/settings_page.php:105
+msgid "Upload Image"
+msgstr "Upload Image"
+
+#: view/settings_page.php:106
+msgid "Clear Logo"
+msgstr "Clear Logo"
+
+#: view/settings_page.php:107
+msgid ""
+"Your logo to be included on invoices and quotes, max 300px wide.  Leave "
+"blank to use Company Name instead."
+msgstr ""
+"Your logo to be included on invoices and quotes, max 300px wide.  Leave "
+"blank to use Company Name instead."
+
+#: view/settings_page.php:112 view/settings_page.php:227
+#: view/settings_page.php:295
+msgid "Save Settings"
+msgstr "Save Settings"
+
+#: view/settings_page.php:119
+msgid "Notifications"
+msgstr "Notifications"
+
+#: view/settings_page.php:123
+msgid "Send Notifications"
+msgstr "Send Notifications"
+
+#: view/settings_page.php:131
+msgid ""
+"Send email notifications to the Admin when clients view and pay invoices"
+msgstr ""
+"Send email notifications to the Admin when clients view and pay invoices"
+
+#: view/settings_page.php:139 view/settings_page.php:170
+#: view/settings_page.php:201
+msgid "Default Subject"
+msgstr "Default Subject"
+
+#: view/settings_page.php:143
+msgid "Default email subject line. Can be customized per invoice."
+msgstr "Default email subject line. Can be customized per invoice."
+
+#: view/settings_page.php:152
+msgid ""
+"Default HTML email when sending an invoice to a client for the first time. "
+"You can use the following dynamic tags"
+msgstr ""
+"Default HTML email when sending an invoice to a client for the first time. "
+"You can use the following dynamic tags"
+
+#: view/settings_page.php:174
+msgid "Default email subject line"
+msgstr "Default email subject line"
+
+#: view/settings_page.php:179
+msgid "Reminder Email Message"
+msgstr "Reminder Email Message"
+
+#: view/settings_page.php:183
+msgid ""
+"Default HTML email when sending an invoice reminder email. You can use the "
+"following dynamic tags"
+msgstr ""
+"Default HTML email when sending an invoice reminder email. You can use the "
+"following dynamic tags"
+
+#: view/settings_page.php:197
+msgid "Quote Email"
+msgstr "Quote Email"
+
+#: view/settings_page.php:205
+msgid "Default email subject line for quotes"
+msgstr "Default email subject line for quotes"
+
+#: view/settings_page.php:214
+msgid ""
+"Default HTML email when sending a quote. You can use the following dynamic "
+"tags"
+msgstr ""
+"Default HTML email when sending a quote. You can use the following dynamic "
+"tags"
+
+#: view/settings_page.php:237
+msgid "Test Secret Key: "
+msgstr "Test Secret Key: "
+
+#: view/settings_page.php:245
+msgid "Test Publishable Key: "
+msgstr "Test Publishable Key: "
+
+#: view/settings_page.php:253
+msgid "Live Secret Key: "
+msgstr "Live Secret Key: "
+
+#: view/settings_page.php:261
+msgid "Live Publishable Key: "
+msgstr "Live Publishable Key: "
+
+#: view/settings_page.php:269
+msgid "API mode: "
+msgstr "API mode: "
+
+#: view/settings_page.php:273
+msgid "Test"
+msgstr "Test"
+
+#: view/settings_page.php:275
+msgid "Live"
+msgstr "Live"
+
+#: view/settings_page.php:281
+msgid "Payment Currency: "
+msgstr "Payment Currency: "
+
+#: view/settings_page.php:285
+msgid "United States Dollar"
+msgstr "United States Dollar"
+
+#: view/settings_page.php:286
+msgid "Canadian Dollar"
+msgstr "Canadian Dollar"
+
+#: view/settings_page.php:287
+msgid "Euro"
+msgstr "Euro"
+
+#: view/settings_page.php:288
+msgid "British Pound Sterling"
+msgstr "British Pound Sterling"
+
+#: view/settings_page.php:289
+msgid "Australian Dollar"
+msgstr "Australian Dollar"
+
+#: view/settings_page.php:306
+msgid "Export Invoices"
+msgstr "Export Invoices"
+
+#: view/settings_page.php:307
+msgid "Download a CSV file containing all invoices"
+msgstr "Download a CSV file containing all invoices"
+
+#: view/settings_page.php:315
+msgid "Export Quotes"
+msgstr "Export Quotes"
+
+#: view/settings_page.php:316
+msgid "Download a CSV file containing all quotes"
+msgstr "Download a CSV file containing all quotes"
+
+#: view/settings_page.php:324
+msgid "Export Clients"
+msgstr "Export Clients"
+
+#: view/settings_page.php:325
+msgid "Download a CSV file containing all clients"
+msgstr "Download a CSV file containing all clients"
+
+#: view/settings_page.php:333
+msgid "Export Payments"
+msgstr "Export Payments"
+
+#: view/settings_page.php:334
+msgid "Download a CSV file containing all payments"
+msgstr "Download a CSV file containing all payments"
